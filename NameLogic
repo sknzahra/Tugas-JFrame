@@ -1,0 +1,19 @@
+package latihanformjava.Function;
+
+import latihanformjava.Model.ModelProgram;
+
+/**
+ *
+ * @author Asus
+ */
+public class NameLogic {
+    
+ 
+    public String returnName (ModelProgram modelProgram){
+        return "Hello, you must be " + modelProgram.getName();
+    }
+    
+    public String returnBlank (ModelProgram modelProgram){
+        return "Your name couldn't be empty!";
+    }
+}
