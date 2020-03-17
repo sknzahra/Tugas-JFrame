@@ -1,0 +1,28 @@
+package latihanformjava.Model;
+
+/**
+ *
+ * @author Asus
+ */
+public class ModelProgram {
+    
+    private String name;
+        
+    public void setName(String name) {
+        this.name = name;
+    }
+    
+    public String getName() {
+        return name;
+    }
+        
+    private String blank;
+
+    public void setBlank(String blank) {
+        this.blank = blank;
+    }
+
+    public String getBlank() {
+        return blank;
+    }       
+}
